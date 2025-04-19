@@ -229,202 +229,43 @@ Here's a table of some of the essential and commonly used commands MS-Dos for Co
 | TIME | TIME [HH: MM: SS] | Displays or sets the system time. |
 | HELP | HELP [command]  | Provides help information for MS-DOS commands. |
 | EXIT | EXIT | Exits the MS-DOS command prompt or a batch file.
-| ATTRIB | ATTRIB [+ R|-R] [+A|-A] [+ H|-H] [+ S|-S] [d:][path]filename [/S]  | Sets or clears file attributes (Read-Only, Archive, System, Hidden), managing file visibility and access in MS-DOS. |
+| ATTRIB | ATTRIB [+ R &vert; -R] [+A &vert; -A] [+ H&vert;-H] [+ S&vert;-S] [d:][path]filename [/S]  | Sets or clears file attributes (Read-Only, Archive, System, Hidden), managing file visibility and access in MS-DOS. |
 | MODE | MODE [device] [BAUD=b] [PARITY=p] [DATA=d] [STOP=s]  | Configures system devices. |
 | DISKCOPY | DISKCOPY [drive1:][path1][filename1] [drive2:][path2][filename2] | Copies the contents of one disk to another. |
 | MEM |  MEM[/program|/debug|/classify|/free|/module(name)] [/page] | Displays the amount of used and free memory in the system. |
-| SCANDISK
-
-SCANDISK [/SURFACE] [/AUTOFIX] [/CHECKONLY]
-
-Scans and fixes disk errors.
-
-| UNDELETE
-
-UNDELETE [drive:][path][filename]
-
-Restores a deleted file.
-
-| ASSIGN
-
-ASSIGN [drive1:=[drive2:]]
-
-Redirects requests for drive letters to a different drive.
-
-| FDISK
-
-FDISK
-
-Manages disk partitions.
-
-| BACKUP
-
-BACKUP [source] [destination] [/S]
-
-Backs up files and directories.
-
-| RESTORE
-
-RESTORE [source] [destination] [/S]
-
-Restores files and directories from a backup.
-
-| MSCDEX
-
-MSCDEX [/D: driver /L:drive] [/M:bufsize] [/E /S /V]
-
-Provides CD-ROM access.
-
-| SYS
-
-SYS [drive1:][path]
-
-Transfers system files to a disk.
-
-| SHARE
-
-SHARE [/F:(space)] [/L:(locks)]
-
-Installs file-sharing and locking capabilities.
-
-| SMARTDRV
-
-SMARTDRV [size] [/E /V] [/C] [/L:size]
-
-Disk caching utility.
-
-| SETVER
-
-SETVER [drive:][path]filename [/B:bytes]
-
-Sets the MS-DOS version number for a program.
-
-| ASSIGN
-
-ASSIGN [/D]
-
-Disables automatic drive-letter assignments.
-
-| FASTHELP
-
-FASTHELP [command] [command] /?
-
-Provides a quick overview of MS-DOS commands.
-
-| FC
-
-FC [/A] [/C] [/L] [/LBn] [/N] [/OFF[LINE]] [/T]
-
-Compares two files or sets of files and displays the differences between them.
-
-| FIND
-
-FIND [/V] [/C] [/N] [/I] [/OFF[LINE]] "string" [[drive:][path]filename[ ...]]
-
-Searches for a text string in files.
-
-| MORE
-
-MORE [filename]
-
-Display the content of a text file one screen at a time
-
-| ECHO
-
-
-
-ECHO [on/off]
-
-This command can either show or hide the text of the commands you type. Command echoing is on by default
-
+| SCANDISK | SCANDISK [/SURFACE] [/AUTOFIX] [/CHECKONLY]  | Scans and fixes disk errors. |
+| UNDELETE | UNDELETE [drive:][path][filename]   | Restores a deleted file. |
+| ASSIGN | ASSIGN [drive1:=[drive2:]] | Redirects requests for drive letters to a different drive.  |
+| FDISK | FDISK | Manages disk partitions. |
+| BACKUP | BACKUP [source] [destination] [/S]  | Backs up files and directories. |
+| RESTORE | RESTORE [source] [destination] [/S] | Restores files and directories from a backup. |
+| MSCDEX | MSCDEX [/D: driver /L:drive] [/M:bufsize] [/E /S /V]   | Provides CD-ROM access. |
+| SYS | SYS [drive1:][path]   | Transfers system files to a disk. |
+| SHARE | SHARE [/F:(space)] [/L:(locks)] | Installs file-sharing and locking capabilities. |
+| SMARTDRV | SMARTDRV [size] [/E /V] [/C] [/L:size]  | Disk caching utility. |
+| SETVER | SETVER [drive:][path]filename [/B:bytes]  | Sets the MS-DOS version number for a program. |
+| ASSIGN | ASSIGN [/D]  | Disables automatic drive-letter assignments. |
+| FASTHELP | FASTHELP [command] [command] /?   | Provides a quick overview of MS-DOS commands. |
+| FC | FC [/A] [/C] [/L] [/LBn] [/N] [/OFF[LINE]] [/T]   | Compares two files or sets of files and displays the differences between them. |
+| FIND | FIND [/V] [/C] [/N] [/I] [/OFF[LINE]] "string" [[drive:][path]filename[ ...]]   | Searches for a text string in files. |
+| MORE | MORE [filename]   | Display the content of a text file one screen at a time |
+| ECHO | ECHO [on/off]   | This command can either show or hide the text of the commands you type. Command echoing is on by default |
 | ECHO | ECHO [<message>]  | Specifies the text to display on the screen. |
-| PATH
-
-PATH [[drive:][path] [;...]]
-
-Displays or sets a search path for executable files.
-
-| SET
-
-SET [variable=[string]]
-
-Sets or displays environment variables.
-
-| VOL
-
-VOL [drive:]
-
-Displays a disk label and serial number.
-
-| SUBST
-
-SUBST [drive1: [drive2:]path]
-
-Associates a path with a drive letter.
-
-| EDLIN
-
-EDLIN [drive:][path][filename]
-
-Edits text files.
-
-| DEBUG
-
-
-
-DEBUG [drive:][path][filename]
-
-Starts the Debug program for testing and debugging assembly-language programs.
-
+| PATH | PATH [[drive:][path] [;...]]   | Displays or sets a search path for executable files. |
+| SET | SET [variable=[string]]  | Sets or displays environment variables. |
+| VOL | VOL [drive:]  | Displays a disk label and serial number. |
+| SUBST | SUBST [drive1: [drive2:]path] | Associates a path with a drive letter. |
+| EDLIN  | EDLIN [drive:][path][filename] | Edits text files. |
+| DEBUG | DEBUG [drive:][path][filename]  | Starts the Debug program for testing and debugging assembly-language programs. |
 | HIMEM.SYS | HIMEM.SYS [/TESTMEM:off] [/HMAMIN=amount]  | Provides upper memory block (UMB) and high memory area (HMA) support. |
-| UNFORMAT
-
-UNFORMAT [drive:][path]
-
-Restores a formatted disk.
-
-| GRAPHICS
-
-GRAPHICS [type] [[drive:][path]filename] [/R] [/B] [/LCD][/PRINTBOX:STD|/PRINTBOX:LCD]
-
-Enables output of graphical screen content to print
-
-| QBASIC
-
-QBASIC [drive:][path]
-
-Starts the MS-DOS-based application for creating and running BASIC programs.
-
-| KEYB
-
-KEYB [/CODEPAGE=page[,country]] [/E]
-
-Configures a keyboard for a specific language.
-
-| CHOICE
-
-CHOICE [/C:choices] [/N] [/S] [/T:c,nn]
-
-Provides a prompt with a list of choices.
-
-| DISKCOMP
-
-DISKCOMP [drive1:][drive2:]
-
-Compares the contents of two floppy disks.
-
-| PRINT
-
-PRINT [/D:device] [filename]
-
-Sends a text file to a printer.
-
-| SORT
-
-SORT [drive:][path][filename]
-
-Sorts the contents of a text file.
-
+| UNFORMAT | UNFORMAT [drive:][path]   | Restores a formatted disk. |
+| GRAPHICS | GRAPHICS [type] [[drive:][path]filename] [/R] [/B] [/LCD][/PRINTBOX:STD|/PRINTBOX:LCD]  | Enables output of graphical screen content to print |
+| QBASIC | QBASIC [drive:][path]  | Starts the MS-DOS-based application for creating and running BASIC programs. |
+| KEYB | KEYB [/CODEPAGE=page[,country]] [/E]  | Configures a keyboard for a specific language. |
+| CHOICE | CHOICE [/C:choices] [/N] [/S] [/T:c,nn]  | Provides a prompt with a list of choices. |
+| DISKCOMP | DISKCOMP [drive1:][drive2:]  | Compares the contents of two floppy disks. |
+| PRINT | PRINT [/D:device] [filename] | Sends a text file to a printer. |
+| SORT | SORT [drive:][path][filename]   | Sorts the contents of a text file. |
 | APPEND | APPEND [[drive:]path[;...]]  | Sets or displays the search path for data files. |
 | ASSOC | ASSOC [.ext[=[fileType]]]   | Associates file extension with a file type. |
 | LABEL | LABEL [drive:][label]  | Creates, changes, or deletes the volume label of a disk. |
