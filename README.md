@@ -229,10 +229,10 @@ Here's a table of some of the essential and commonly used commands MS-Dos for Co
 | TIME | TIME [HH: MM: SS] | Displays or sets the system time. |
 | HELP | HELP [command]  | Provides help information for MS-DOS commands. |
 | EXIT | EXIT | Exits the MS-DOS command prompt or a batch file.
-| ATTRIB | ATTRIB [+ R &vert; -R] [+A &vert; -A] [+ H&vert;-H] [+ S&vert;-S] [d:][path]filename [/S]  | Sets or clears file attributes (Read-Only, Archive, System, Hidden), managing file visibility and access in MS-DOS. |
+| ATTRIB | ATTRIB [+ R &vert; -R] [+A &vert; -A] [+H &vert; -H] [+S &vert; -S] [d:][path]filename [/S]  | Sets or clears file attributes (Read-Only, Archive, System, Hidden), managing file visibility and access in MS-DOS. |
 | MODE | MODE [device] [BAUD=b] [PARITY=p] [DATA=d] [STOP=s]  | Configures system devices. |
 | DISKCOPY | DISKCOPY [drive1:][path1][filename1] [drive2:][path2][filename2] | Copies the contents of one disk to another. |
-| MEM |  MEM[/program|/debug|/classify&vert;/free&vert;/module(name)] [/page] | Displays the amount of used and free memory in the system. |
+| MEM |  MEM[/program|/debug &vert; /classify &vert; /free &vert; /module(name)] [/page] | Displays the amount of used and free memory in the system. |
 | SCANDISK | SCANDISK [/SURFACE] [/AUTOFIX] [/CHECKONLY]  | Scans and fixes disk errors. |
 | UNDELETE | UNDELETE [drive:][path][filename]   | Restores a deleted file. |
 | ASSIGN | ASSIGN [drive1:=[drive2:]] | Redirects requests for drive letters to a different drive.  |
@@ -259,7 +259,7 @@ Here's a table of some of the essential and commonly used commands MS-Dos for Co
 | DEBUG | DEBUG [drive:][path][filename]  | Starts the Debug program for testing and debugging assembly-language programs. |
 | HIMEM.SYS | HIMEM.SYS [/TESTMEM:off] [/HMAMIN=amount]  | Provides upper memory block (UMB) and high memory area (HMA) support. |
 | UNFORMAT | UNFORMAT [drive:][path]   | Restores a formatted disk. |
-| GRAPHICS | GRAPHICS [type] [[drive:][path]filename] [/R] [/B] [/LCD][/PRINTBOX:STD&vert;/PRINTBOX:LCD]  | Enables output of graphical screen content to print |
+| GRAPHICS | GRAPHICS [type] [[drive:][path]filename] [/R] [/B] [/LCD][/PRINTBOX:STD &vert; /PRINTBOX:LCD]  | Enables output of graphical screen content to print |
 | QBASIC | QBASIC [drive:][path]  | Starts the MS-DOS-based application for creating and running BASIC programs. |
 | KEYB | KEYB [/CODEPAGE=page[,country]] [/E]  | Configures a keyboard for a specific language. |
 | CHOICE | CHOICE [/C:choices] [/N] [/S] [/T:c,nn]  | Provides a prompt with a list of choices. |
