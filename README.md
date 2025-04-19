@@ -232,7 +232,7 @@ Here's a table of some of the essential and commonly used commands MS-Dos for Co
 | ATTRIB | ATTRIB [+ R &vert; -R] [+A &vert; -A] [+H &vert; -H] [+S &vert; -S] [d:][path]filename [/S]  | Sets or clears file attributes (Read-Only, Archive, System, Hidden), managing file visibility and access in MS-DOS. |
 | MODE | MODE [device] [BAUD=b] [PARITY=p] [DATA=d] [STOP=s]  | Configures system devices. |
 | DISKCOPY | DISKCOPY [drive1:][path1][filename1] [drive2:][path2][filename2] | Copies the contents of one disk to another. |
-| MEM |  MEM[/program|/debug &vert; /classify &vert; /free &vert; /module(name)] [/page] | Displays the amount of used and free memory in the system. |
+| MEM |  MEM[/program &vert; /debug &vert; /classify &vert; /free &vert; /module(name)] [/page] | Displays the amount of used and free memory in the system. |
 | SCANDISK | SCANDISK [/SURFACE] [/AUTOFIX] [/CHECKONLY]  | Scans and fixes disk errors. |
 | UNDELETE | UNDELETE [drive:][path][filename]   | Restores a deleted file. |
 | ASSIGN | ASSIGN [drive1:=[drive2:]] | Redirects requests for drive letters to a different drive.  |
