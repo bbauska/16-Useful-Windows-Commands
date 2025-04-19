@@ -24,22 +24,22 @@ over your Windows PC.</p>
 
 <h2 id="cmds">16 Useful Windows Commands (CMDs) You Should Know;</h2>
 <ol>
-  <li>1 ATTRIB: change the attributes of a file</li>
-  <li>2 ASSOC: display file associations</li>
-  <li>3 DRIVERQUERY: list the Windows drivers</li>
-  <li>4 FC: compare two text files</li>
-  <li>5 IPCONFIG: display the IP configuration</li>
-  <li>6 PING: check latency and connectivity</li>
-  <li>7 NETSTAT: display network connections</li>
-  <li>8 NET USE: create or delete Windows user accounts</li>
-  <li>9 NET USE: create a network drive</li>
-  <li>10 SFC: check and repair system files</li>
-  <li>11 SHUTDOWN: shutting down your PC with CMD</li>
-  <li>12 SYSTEMINFO: display system information</li>
-  <li>13 TASKLIST: list the processes</li>
-  <li>14 TASKKILL: kill a process</li>
-  <li>15 TRACERT: do a traceroute</li>
-  <li>16 XCOPY: copy files in command prompt</li>
+  <li>ATTRIB: change the attributes of a file</li>
+  <li>ASSOC: display file associations</li>
+  <li>DRIVERQUERY: list the Windows drivers</li>
+  <li>FC: compare two text files</li>
+  <li>IPCONFIG: display the IP configuration</li>
+  <li>PING: check latency and connectivity</li>
+  <li>NETSTAT: display network connections</li>
+  <li>NET USE: create or delete Windows user accounts</li>
+  <li>NET USE: create a network drive</li>
+  <li>SFC: check and repair system files</li>
+  <li>SHUTDOWN: shutting down your PC with CMD</li>
+  <li>SYSTEMINFO: display system information</li>
+  <li>TASKLIST: list the processes</li>
+  <li>TASKKILL: kill a process</li>
+  <li>TRACERT: do a traceroute</li>
+  <li>XCOPY: copy files in command prompt</li>
 </ol>
 
 <p>As a reminder, there is a full article that gives you all the methods to access the Command Prompt.</p>
@@ -128,8 +128,6 @@ Windows 7 and 10 or open the search function in Windows 8 and search for CMD.  N
 right-click on it and then press $ Run as administrator. While you don't need to open an 
 elevated command prompt window, it will help you to avoid any pesky confirmation dialog 
 boxes.</p>
-
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="iponfig">5 IPCONFIG: display the IP configuration</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
