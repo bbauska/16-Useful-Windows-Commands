@@ -6,147 +6,154 @@ Date Last Editted: 	12/10/2024
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of 16-useful-windows-commands ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Windows Command Prompt is full of useful commands. In this article, we gave the main 
+ones: List of Windows Command Prompt (CMD) commands.</p>
 
-Windows Command Prompt is full of useful commands. In this article, we gave the main 
-ones: List of Windows Command Prompt (CMD) commands.
+<p>There are some things you can only do from the command line, even in Windows.</p>
 
-There are some things you can only do from the command line, even in Windows.
+<p>Indeed some tools do not have graphical equivalents, while others are simply faster 
+to use than their graphical interfaces.</p>
 
-Indeed some tools do not have graphical equivalents, while others are simply faster 
-to use than their graphical interfaces.
+<p>Some CMD commands are so useful and easy to use that even regular users see the Windows 
+Command Prompt as a key part of the operating system.</p>
 
-Some CMD commands are so useful and easy to use that even regular users see the Windows 
-Command Prompt as a key part of the operating system.
+<p>Here are 16 of the best CMD commands you should know if you want to have more control 
+over your Windows PC.</p>
 
-Here are 16 of the best CMD commands you should know if you want to have more control 
-over your Windows PC.
+<h3 id="toc">Contents</h3>
 
-### Contents
+<h2 id="cmds">16 Useful Windows Commands (CMDs) You Should Know;</h2>
+<ol>
+  <li>1 ATTRIB: change the attributes of a file</li>
+  <li>2 ASSOC: display file associations</li>
+  <li>3 DRIVERQUERY: list the Windows drivers</li>
+  <li>4 FC: compare two text files</li>
+  <li>5 IPCONFIG: display the IP configuration</li>
+  <li>6 PING: check latency and connectivity</li>
+  <li>7 NETSTAT: display network connections</li>
+  <li>8 NET USE: create or delete Windows user accounts</li>
+  <li>9 NET USE: create a network drive</li>
+  <li>10 SFC: check and repair system files</li>
+  <li>11 SHUTDOWN: shutting down your PC with CMD</li>
+  <li>12 SYSTEMINFO: display system information</li>
+  <li>13 TASKLIST: list the processes</li>
+  <li>14 TASKKILL: kill a process</li>
+  <li>15 TRACERT: do a traceroute</li>
+  <li>16 XCOPY: copy files in command prompt</li>
+</ol>
 
-## 16 Useful Windows Commands (CMDs) You Should Know;
+<p>As a reminder, there is a full article that gives you all the methods to access the Command Prompt.</p>
 
-	1 ATTRIB: change the attributes of a file
-	2 ASSOC: display file associations
-	3 DRIVERQUERY: list the Windows drivers
-	4 FC: compare two text files
-	5 IPCONFIG: display the IP configuration
-	6 PING: check latency and connectivity
-	7 NETSTAT: display network connections
-	8 NET USE: create or delete Windows user accounts
-	9 NET USE: create a network drive
-	10 SFC: check and repair system files
-	11 SHUTDOWN: shutting down your PC with CMD
-	12 SYSTEMINFO: display system information
-	13 TASKLIST: list the processes
-	14 TASKKILL: kill a process
-	15 TRACERT: do a traceroute
-	16 XCOPY: copy files in command prompt
-	
-As a reminder, there is a full article that gives you all the methods to access the Command Prompt.
+<p>More information:</p>
 
-More information:
+<p>6 methods to open Command Prompt on Windows 10;</p>
 
-6 methods to open Command Prompt on Windows 10;
-
-From there, you can use the helpful commands provided in this article.
+<p>From there, you can use the helpful commands provided in this article.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 1. ATTRIB: change the attributes of a file
+<h3 id="attrib">1. ATTRIB: change the attributes of a file</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-The first CMD command we present is Attrib.
+<p>The first CMD command we present is Attrib.</p>
 
-This gives the possibility to display or modify the attributes of a file.
+<p>This gives the possibility to display or modify the attributes of a file.</p>
 
-For example to remove the reader attribute alone or hidden from a file.
+<p>For example to remove the reader attribute alone or hidden from a file.</p>
 
-Here we use -R to remove the read-only attribute and -H for hidden;
-```
+<p>Here we use -R to remove the read-only attribute and -H for hidden;</p>
+<pre>
 attrib -R -H fname.ext
-```
+</pre>
 
-The + on the contrary allows to add the attribute to the file;
-```
+<p>The + on the contrary allows to add the attribute to the file;</p>
+<pre>
 attrib +R +H fname.ext
-```
-
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 2. ASSOC: For the list of attributes and more example attribute usage, follow this article:
+<h3 id="assoc">2. ASSOC: For the list of attributes and more example attribute usage, follow this article:</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>File attributes on Windows: view and modify file attributes;</p>
 
-File attributes on Windows: view and modify file attributes;
-```
+<pre>
 ASSOC: show file associations
-```
-Next is the ASSOC command that can be used in the command prompt.
-It allows you to list the file associations.
+</pre>
+
+<p>Next is the ASSOC command that can be used in the command prompt.</p>
+<p>It allows you to list the file associations.</p>
  
-Finally ASSOC is also able to modify file associations.
-For example to change the file association on the .doc extension
-```
+<p>Finally ASSOC is also able to modify file associations.</p>
+<p>For example to change the file association on the .doc extension</p>
+<pre>
 assoc .doc=Word.Document.8
-```
-For more information on these, read:
+</pre>
+<p>For more information on these, read:</p>
 
-File associations and file extensions on Windows
+<p>File associations and file extensions on Windows.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 3. DRIVERQUERY: list the Windows drivers
+<h3 id="driverquery">3. DRIVERQUERY: list the Windows drivers</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-The driverquery command generates a list of all hardware drivers installed in Windows.
+<p>The driverquery command generates a list of all hardware drivers installed in Windows.</p>
 
+<p>It generates a report of installed drivers that you can save for later reference or to 
+find the version number of a currently installed driver so that you can make a better 
+decision if you plan to update.</p>
+
+<p>Here are some options and settings:</p>
+
+<h4>DRIVERQUERY: list the Windows drivers.</h4>
+
+<p>The driverquery command generates a list of all hardware drivers installed in Windows.
 It generates a report of installed drivers that you can save for later reference or to 
 find the version number of a currently installed driver so that you can make a better 
-decision if you plan to update.
+decision if you plan to update.</p>
 
-Here are some options and settings:
+<p>Here are some options and settings:</p>
 
-DRIVERQUERY: list the Windows drivers.
-
-The driverquery command generates a list of all hardware drivers installed in Windows.
-It generates a report of installed drivers that you can save for later reference or to 
-find the version number of a currently installed driver so that you can make a better 
-decision if you plan to update.
-
-Here are some options and settings:
-
-	/ s - This option allows you to specify the name or IP address of a remote computer in 
-  order to find the drivers it has installed.
-	/ si - This option shows you the digital signature information for the drivers.
-	/ fo - This is really the key option that you will be using with driverquery. It allows 
+<ul>
+  <li>/ s - This option allows you to specify the name or IP address of a remote computer in 
+  order to find the drivers it has installed.</li>
+  <li>/ si - This option shows you the digital signature information for the drivers.</li>
+  <li>/ fo - This is really the key option that you will be using with driverquery. It allows 
   you to specify the format in which the information is displayed so that you can save 
   it more efficiently as a report. After typing / fo, add one of the following options: 
   TABLE (the default view), LIST (which lists each driver with all of its information 
-  one after the other), and CSV (which displays the data as comma separated values).
-
+  one after the other), and CSV (which displays the data as comma separated values).</li>
+</ul>
+<pre>
 driverquery /fo CSV \> drivers.csv
+</pre>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="fc">4 FC: compare two text files</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Now you will need to open up an elevated command prompt window. Open the start menu in 
+Windows 7 and 10 or open the search function in Windows 8 and search for CMD.  Next, 
+right-click on it and then press $ Run as administrator. While you don't need to open an 
+elevated command prompt window, it will help you to avoid any pesky confirmation dialog 
+boxes.</p>
+
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 4 FC: compare two text files
+<h3 id="iponfig">5 IPCONFIG: display the IP configuration</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-
+<h3 id="ping">6 PING: check latency and connectivity</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 5 IPCONFIG: display the IP configuration
+<h3 id="netstat">7 NETSTAT: display network connections</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 6 PING: check latency and connectivity
+<h3 id="netuse">8 NET USE: create or delete Windows user accounts</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 7 NETSTAT: display network connections
+<h3 id="netuse2">9 NET USE: create a network drive</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 8 NET USE: create or delete Windows user accounts
+<h3 id="sfc">10 SFC: check and repair system files</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 9 NET USE: create a network drive
+<h3 id="shutdown">11 SHUTDOWN: shutting down your PC with CMD</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 10 SFC: check and repair system files
+<h3 id="systeminfo">12 SYSTEMINFO: display system information</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 11 SHUTDOWN: shutting down your PC with CMD
+<h3 id="tasklist">13 TASKLIST: list the processes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 12 SYSTEMINFO: display system information
+<h3 id="taskkill">14 TASKKILL: kill a process</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 13 TASKLIST: list the processes
+<h3 id="tracert">15 TRACERT: do a traceroute</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 14 TASKKILL: kill a process
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 15 TRACERT: do a traceroute
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-### 16 XCOPY: copy files in command prompt
+<h3 id="xcopy">16 XCOPY: copy files in command prompt</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
